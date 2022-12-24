@@ -1,4 +1,4 @@
-# Geolocational Data Analyses
+# Geolocational Data Analyser
 > Classify Various Residential Places using REST API and Machine Learning
 
 [![Python Version][python-image]][python-url]
