@@ -4,7 +4,7 @@ def get(distance):
     url = "https://api.foursquare.com/v3/places/search?ll=28.6347%2C77.3046&radius="+str(distance)+"&categories=12094&limit=50"
     headers = {
         "accept": "application/json",
-        "Authorization": "fsq3MlJNiLosIk4vGg3MXQwuoEZLDNdePbO+sQAOJa9w34k="
+        "Authorization": "[Get yours from README]"
     }
     response = requests.request("GET",url, headers=headers)
     resp = response.json()
@@ -21,7 +21,7 @@ def get_cat(x,y,category):
     url = "https://api.foursquare.com/v3/places/search?ll="+str(x)+"%2C"+str(y)+"&radius=1000&categories="+str(category)+"&limit=50"
     headers = {
         "accept": "application/json",
-        "Authorization": "fsq3MlJNiLosIk4vGg3MXQwuoEZLDNdePbO+sQAOJa9w34k="
+        "Authorization": "[Get Yours from README]"
     }
     response = requests.request("GET",url,headers=headers)
     resp = response.json()
