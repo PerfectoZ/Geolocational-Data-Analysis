@@ -31,7 +31,12 @@ be found [Here](https://foursquare.com/)
 To Setup the Notebook Install the Above Dependencies and Replace [redacted] with your Foursquare API Key.
 
 ## Release History
+* 0.0.3
+    * Added PCA for variance analysis
 
+* 0.0.2
+    * Added Popups in Folium for a better idea of locations
+    
 * 0.0.1
     * Basic Skeleton is Ready, Need to add for Location as per User Input
 
