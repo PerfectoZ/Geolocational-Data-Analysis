@@ -18,6 +18,7 @@ pip install numpy
 pip install matplotlib
 pip install folium
 pip install jupyter-notebook
+pip install scikit-learn
 ```
 
 ## Usage example
