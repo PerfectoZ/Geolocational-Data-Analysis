@@ -57,7 +57,7 @@ To Setup the Notebook Install the Above Dependencies and Replace [redacted] with
 5. Create a new Pull Request
 
 <!-- Markdown link & img dfn's -->
-[python-image]: https://img.shields.io/badge/Python-3.9.x-blue?style=flat-square
+[python-image]: https://img.shields.io/badge/Python-3.10.x-blue?style=flat-square
 [python-url]: https://npmjs.org/package/datadog-metrics
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [rest-api-image]: https://img.shields.io/badge/REST%20API-V3-orange?style=flat-square
