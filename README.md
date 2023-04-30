@@ -31,6 +31,9 @@ be found [Here](https://foursquare.com/)
 To Setup the Notebook Install the Above Dependencies and Replace [redacted] with your Foursquare API Key.
 
 ## Release History
+* 0.0.4
+   * Fit Data using PCA to Plot much better clusters
+   
 * 0.0.3
     * Added PCA for variance analysis
 
