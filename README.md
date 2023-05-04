@@ -5,7 +5,7 @@
 ![REST API][rest-api-image]
 ![Build Status][travis-image]
 
-This Python Notebook aims to Classify various Residential places on any coordinate (Eg : Delhi) using K-Means Machine Learning Algorithm and Foursquare REST API
+This Python Notebook aims to Classify various Residential places on any coordinate (Eg : Delhi) using K-Means Machine Learning Algorithm, Minisom and HERE REST API
 
 ![](header.png)
 
@@ -24,13 +24,19 @@ pip install scikit-learn
 ## Usage example
 
 To run this all you need is a foursquare API Key which can
-be found [Here](https://foursquare.com/)
+be found [Here](https://developer.here.com/)
 
 ## Development setup
 
-To Setup the Notebook Install the Above Dependencies and Replace [redacted] with your Foursquare API Key.
+To Setup the Notebook Install the Above Dependencies and setup your API Credentials as per HERE REST Documentation
 
 ## Release History
+* 0.0.6
+   * Change the Datasource for very accurate clustering
+
+* 0.0.5
+   * Change the Algorithm for very accurate clustering (Minisom)
+
 * 0.0.4
    * Fit Data using PCA to Plot much better clusters
    
