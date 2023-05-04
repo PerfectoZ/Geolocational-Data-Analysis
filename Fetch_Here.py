@@ -15,7 +15,7 @@ req_cat = {
 }
 
 def get(distance):
-    url = 'https://browse.search.hereapi.com/v1/browse?apiKey=6ZUvGkcQ7LS730i6Izq2Tf3Oy30z31X9s7UZ3BU81aQ&at=28.636507423890134,77.29259567115122&categories=900-9300-0221&limit=100&r='+str(distance)
+    url = 'https://browse.search.hereapi.com/v1/browse?apiKey=[redacted]&at=28.636507423890134,77.29259567115122&categories=900-9300-0221&limit=100&r='+str(distance)
     response = requests.request("GET",url)
     resp = response.json()
     coord = set()
